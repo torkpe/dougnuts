@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	top: 0;
 	min-width: 100%;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #d64b4b;
 	display: flex;
 	flex-direction: row;
 }
@@ -153,6 +153,7 @@ ul.nav-tabs li a {
 .btn__add-to-cart {
 	margin-top: 0.5rem;
 	background-color: #d64b4b;
+	border-color: #d64b4b;
 	color: white;
 	border-radius: 15px 50px 30px 5px;
 }
@@ -161,6 +162,17 @@ ul.nav-tabs li a {
 	justify-content: center;
 	display: flex;
 }
+
 .btn__pagination {
 	margin-right: 1rem;
+	color: white;
+	background-color: #d64b4b;
+	border-color: #d64b4b;
+}
+
+button:hover {
+	cursor: pointer;
+}
+*:focus {
+	outline: 0 !important;
 }
