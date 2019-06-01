@@ -7,7 +7,7 @@ body {
 
 .background-image {
 	background-repeat: no-repeat;
-	background-image: url('../assets/img/backgound-doughnuts.jpg');
+	background-image: url('https://d3awvtnmmsvyot.cloudfront.net/api/file/UGQPOPoiRxu66Pb6KpjV/convert?fit=max&w=1450&quality=60&cache=true&rotate=exif&compress=true');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
